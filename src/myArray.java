@@ -33,6 +33,12 @@ public class myArray {
         }
         int length = exArray.length;
         System.out.println("Lungimea sirului este " + length);
+
+        //         Declarati un array de elemente de tip char cu elementele: a, b, c, d.
+        // Afisati elementul de pe prima pozitie.
+        // Afisati elementul de pe a doua pozitie.
+        // Afisati elementul de pe ultima pozitie.
+        // Afisati toate elementele sirului folosind FOR.
         char[] exChar = {'a', 'b', 'c', 'd'};
         System.out.println(exChar[0]);
         System.out.println(exChar[1]);

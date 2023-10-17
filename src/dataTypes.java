@@ -49,6 +49,13 @@ public class dataTypes {
         int h= (int) nr;
         System.out.println(h);
         System.out.println("tema optionala");
+        /*
+         Declarati doua variabile de tip float cu valori la alegere.
+         afisati suma lor.
+         Afisati diferenta dintre ele.
+         Afisati produsul dintre ele (produsul a doua numere se realizeaza cu ajutorul operatorului
+         “*”).
+        */
         float m= 1.22f;
         float n=1.66f;
         System.out.println(m+n);
