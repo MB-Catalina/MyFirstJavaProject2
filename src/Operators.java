@@ -71,6 +71,7 @@ public class Operators {
             var2=var2-2;
         }
         System.out.println("raspunsul pentru ex. 3 este " + var2);
+
         /*
          * Exercitiul 4 – in Operators:
          * Declarati doua variabile de tip boolean cond1 si cond2
