@@ -36,20 +36,64 @@ public class ExercitiiConditionasAndLoops {
         for (String fruct : sir){
             System.out.println("Imi place sa mananc "+fruct+".");
         }
+        //variata 2
+        String fructe[] ={"mar", "capsune","pere","banane"};
+        for (int i=0; i< fructe.length; i++){
+            System.out.println("imi place sa mananc " + fructe[i]);
+        }
 
-        System.out.println("exercitiul5");
+
+        System.out.println("exercitiul 5");
         //Scrieți un program care să afișeze numele lunii în funcție de un număr întreg de la 1-12.
         // Ex: 1 -> Ianuarie, 2-> Februarie, 3-> Martie, etc.
+        //varianta 1
         String[] lunile={null, "ianuarie", "februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"};
+        int z=2;
+        System.out.println(lunile[z]);
+
+        // varianta 1 afisare toate luniile
         for (int x=1; x<=12; x++){
-            System.out.print(lunile[x]+" "); //incercare cu for
-        }
+            System.out.print(lunile[x]+" ");}
+        System.out.println("\n");
+        //varianta 2
         System.out.println("\r");
         int y=1;
         while (y<13){
             System.out.print(lunile[y]+ " ");
             y++;
         }
+        System.out.println("\n");
+
+        //varianta cu switch
+        int luna =12;
+        switch (luna){
+            case 1:
+                System.out.println("ianuarie");break;
+            case 2:
+                System.out.println("februarie");break;
+            case 3:
+                System.out.println("martie");break;
+            case 4:
+                System.out.println("aprilie");break;
+            case 5:
+                System.out.println("mai");break;
+            case 6:
+                System.out.println("iunie");break;
+            case 7:
+                System.out.println("iulie");break;
+            case 8:
+                System.out.println("august");break;
+            case 9:
+                System.out.println("septembrie");break;
+            case 10:
+                System.out.println("octombrie");break;
+            case 11:
+                System.out.println("noiembrie");break;
+            case 12:
+                System.out.println("decembrie");break;
+
+        }
+
         System.out.println("\n");
         System.out.println("exercitii otionale");
         System.out.println("ex. 1");
@@ -58,9 +102,9 @@ public class ExercitiiConditionasAndLoops {
         // Daca valoarea este peste 22, afisati “prea cald”.
 
         int temperature = 26;
-        if (temperature<=18){
+        if (temperature<18){
             System.out.println("prea frig");
-        } else if (temperature>18 && temperature<22) {
+        } else if (temperature>=18 && temperature<22) {
             System.out.println("ok");
         } else if (temperature>22) {
             System.out.println("prea cald");
@@ -83,6 +127,16 @@ public class ExercitiiConditionasAndLoops {
         } else if (gender == 'f' && !married) {
             System.out.println("domnisoara");
         }
+
+        //varianta 2
+        if (gender== 'm'){
+            System.out.println("domnul");
+       } else if (gender=='f'){
+           System.out.println("doamna");
+       }else System.out.println("domnisoara");
+
+
+
 
         System.out.println("ex. 3");
         //Declarati si initializati doua variabile de tip int.
@@ -129,16 +183,14 @@ public class ExercitiiConditionasAndLoops {
         //Exercitiul 5 – IF Declarati o variabila de tip char cu numele letter si dati-i o valoare la alegere.
         //Daca valoarea este consoana, afisati “[letter] este consoana”, daca este vocala, afisati “[letter] este vocala”,
         // unde letter e valoarea variabilei.
-        char letter= 'a';
+        char letter= 'p';
 
         if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
             System.out.println(letter + " este o vocala");
         } else System.out.println(letter+ " este o consoana");
 
 
-        String vocale = "aeiou";
-        if (vocale.indexOf(letter)>0) System.out.println(letter + " este o vocala");
-        else System.out.println(letter+ " este o consoana");
+
 
 
 

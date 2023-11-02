@@ -55,6 +55,7 @@ public class Operators {
         //afisati suma lor, produsul lor si restul impartirii intre var 4 si var 2
         int var1 = 12, var2 =15, var3 = 18, var4 = 20;
         System.out.println(var1+var2+var3+var4);
+        System.out.println();
         System.out.println(var1*var2*var3*var4);
         System.out.println(var4 % var2);
         //2.incrementati var1 cu o unitate de 3 ori.
@@ -68,7 +69,7 @@ public class Operators {
         //3. Decrementati var2 cu doua unitati de 2 ori.
         //Afisati var2 dupa cea de-a doua decrementare.
         for (int j=0; j<2; j++){
-            var2=var2-2;
+            var2=var2-2; // -=2
         }
         System.out.println("raspunsul pentru ex. 3 este " + var2);
 
@@ -96,6 +97,33 @@ public class Operators {
         System.out.println(evaluare);
         boolean evaluare2= cond1 && cond2; //daca ambele sunt adevarate
         System.out.println(evaluare2);
+
+        //ex1
+        double result = 10*6;
+        System.out.println(result);
+
+        //ex3
+        int x = 10;
+        ++x;
+        System.out.println(x); //diferenta dintre ++x il arata si apoi il incrementeaza etc.....
+
+        //ex4
+        x+=5;
+        System.out.println(x);
+
+        //ex 5 curs
+        int u=10, v=28, w=u+v;
+        if (w>=10){
+            System.out.println("suma este mai mare decat 10");
+        }
+            else System.out.println("suma este mai mica decat 10");
+
+            //ex 6
+        if (w%2==0){
+            System.out.println("suma este nr par");
+        }
+
+
 
 
     }
