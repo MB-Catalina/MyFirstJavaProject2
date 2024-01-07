@@ -69,7 +69,5 @@ public class MyFirstClass {
         System.out.println(nr+text);
         System.out.println(text1+text);
         System.out.print(text2);
-
-
     }
 }

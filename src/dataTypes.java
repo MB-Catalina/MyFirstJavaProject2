@@ -66,7 +66,6 @@ public class dataTypes {
         Ex. double y = 5; int x = (int) y;
          */
 
-
         System.out.println("tema optionala Tipuri de date - Ex 1 ");
         /*Declarati doua variabile de tip float cu valori la alegere.
          afisati suma lor.

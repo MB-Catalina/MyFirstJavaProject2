@@ -124,7 +124,6 @@ public class ExercitiiConditionasAndLoops {
             System.out.println("Domnisoara");
         }
 
-
         System.out.println("ex. 3");
         //Declarati si initializati doua variabile de tip int.
         //Screiti un program care sa afiseze variabila cu valoare mai mare dintre cele doua: “[x] este mai mare decat [y]”,

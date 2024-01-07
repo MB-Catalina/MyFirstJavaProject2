@@ -74,7 +74,6 @@ public class Algorythmns {
             System.out.println(tari[i] + " are urmatorul numar de litere: "+ tari[i].length());
         }
 
-
         int nr[] = {4, 8, -5, 89};
         int minim = numere[0];
         System.out.println("5+5");

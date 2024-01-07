@@ -128,7 +128,6 @@ public class Operators {
         boolean evaluare2= cond1 && cond2; //daca ambele sunt adevarate
         System.out.println(evaluare2);
 
-
     }
 
 }

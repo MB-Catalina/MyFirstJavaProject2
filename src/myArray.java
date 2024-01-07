@@ -55,6 +55,5 @@ public class myArray {
         for (int i=0; i<exChar.length;i++){
             System.out.print(exChar[i]);
         }
-
     }
 }

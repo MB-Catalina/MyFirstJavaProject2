@@ -18,7 +18,6 @@ public class Conditionals {
         }else System.out.println("only 24 hours in day!");
 
         int day = 15;
-
         switch (day){
             case 1: System.out.println("Monday"); break;
             case 2: System.out.println("Tuesday"); break;

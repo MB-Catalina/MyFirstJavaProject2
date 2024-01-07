@@ -69,6 +69,5 @@ public class myString {
         int lungimeaFilmuluiFaraSpatii = myFavouriteMoviefaraspatii.length();
         System.out.println("Lungimea numelui filmului favorit, dar fara spatiu este "+ lungimeaFilmuluiFaraSpatii );
 
-
     }
 }
