@@ -203,7 +203,6 @@ public class JavaMethods {
 
     //Exercitiul 7:
     //Scrieti o metoda care primeste un String si returneaza numarul de caractere din Stringul respectiv.
-
     private static int numarulCaractere (String text){
         return text.length();
     }
