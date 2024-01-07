@@ -4,44 +4,40 @@ public class ExercitiiConditionasAndLoops {
         System.out.println("exercitiul 1");
         //Scrieți un program care să afișeze toate numerele întregi de la 0 până la 10
         //(inclusiv).
-
         for (int l = 0; l<=10; l++){
             System.out.print(l+", ");
         }
+
         System.out.print("\n");
-        for (int o = 0; o<=9; o++){
-            System.out.print( o +", ");
-        }
-        System.out.print("10.\n");
 
         System.out.println("exercitiul 2");
         //Scrieți un program care să afișeze numerele întregi de la 20 până la 10 (inclusiv) în ordine descrescătoare.
-
         for (int e =20; e >=10; e--){
             System.out.print(e + " ");
         }
-
+        System.out.println();
         System.out.println( "exercitiul 3");
         //Scrieți un program care să afișeze toate numerele pare pozitive până la 100 (inclusiv)
-
         for (int p=0; p<=100; p++) {
             if(p%2==0) System.out.print(p+", ");
 
         }
 
-        System.out.println("exercitium 4");
+        System.out.println();
+        System.out.println("exercitiu 4");
         //Se dă un șir cu următoarele elemente: măr, căpsune, pere, banane. Scrieți un program care să afișeze
         // pentru fiecare fruct: “Îmi place să mananc [numeFruct]”, unde numeFruct reprezintă fiecare fruct din șir.
+        //varianta 1
         String[] sir= {"mar", "capsune","pere","banane"};
         for (String fruct : sir){
-            System.out.println("Imi place sa mananc "+fruct+".");
+            System.out.println("Imi place sa mananc " + fruct + ".");
         }
+        System.out.println("\n");
         //variata 2
         String fructe[] ={"mar", "capsune","pere","banane"};
         for (int i=0; i< fructe.length; i++){
-            System.out.println("imi place sa mananc " + fructe[i]);
+            System.out.println("imi place sa mananc " + fructe[i]+".");
         }
-
 
         System.out.println("exercitiul 5");
         //Scrieți un program care să afișeze numele lunii în funcție de un număr întreg de la 1-12.
@@ -95,7 +91,7 @@ public class ExercitiiConditionasAndLoops {
         }
 
         System.out.println("\n");
-        System.out.println("exercitii otionale");
+        System.out.println("Exercitii otionale - Instructiuni conditionale");
         System.out.println("ex. 1");
         //Exercitiul 1 Declarati o variabila de tip int, cu numele “temperature” si dati-i o valoare la alegere.
         //Daca valoarea ei este mai mica decat 18, afisati “prea frig”. Daca valoarea este intre 18 si 22, afisati “ok”.
@@ -123,19 +119,10 @@ public class ExercitiiConditionasAndLoops {
         if (gender == 'm'){
             System.out.println("Domnul");
         } else if (gender== 'f'&& married ) {
-            System.out.println("doamna");
+            System.out.println("Doamna");
         } else if (gender == 'f' && !married) {
-            System.out.println("domnisoara");
+            System.out.println("Domnisoara");
         }
-
-        //varianta 2
-        if (gender== 'm'){
-            System.out.println("domnul");
-       } else if (gender=='f'){
-           System.out.println("doamna");
-       }else System.out.println("domnisoara");
-
-
 
 
         System.out.println("ex. 3");
@@ -172,7 +159,7 @@ public class ExercitiiConditionasAndLoops {
             }
 
         }
-
+        //varianta 2:
         int max;
         if(var1>var2) max=var1;
         else max=var2;
@@ -188,13 +175,6 @@ public class ExercitiiConditionasAndLoops {
         if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
             System.out.println(letter + " este o vocala");
         } else System.out.println(letter+ " este o consoana");
-
-
-
-
-
-
-
 
     }
 

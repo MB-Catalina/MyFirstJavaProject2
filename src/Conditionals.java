@@ -29,7 +29,7 @@ public class Conditionals {
             case 7: System.out.println("Sunday"); break;
             default: System.out.println("Unkown");
         }
-        // Scrieți un program care să afișeze toate numerele întregi de la 0 până la 10 )inclusiv
+
 
 
 

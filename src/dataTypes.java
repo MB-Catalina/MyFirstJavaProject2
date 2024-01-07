@@ -33,6 +33,8 @@ public class dataTypes {
         int w=(int) z;
         System.out.println(w);
         //double mai mare decat int, de la mare la mic se precizeaza casting intre paranteze
+
+
         System.out.println("exercitiu1");
         int mynum= 9;
         float myfloat=8.99f;
@@ -41,26 +43,41 @@ public class dataTypes {
         String mytext="hello world";
         String myothertext= "1a2b3c";
 
-
+        System.out.println("Ex 2");
+        /*Casting – în clasa DataTypes
+        Declarați o variabilă de tip byte și atribuiți-i o valoare
+        Declarați o nouă variabilă de tip int și dați-i valoarea primei variabile folosind casting.
+        Afișați valoare celei de-a doua variabile folosind metoda print().*/
         byte d=-120; //byte tre sa fie nt intre -128 si 127
         int e= d;
-        System.out.println(e);
+        System.out.println("Valoarea celei de-a doua variabile este " + e);
+
+        System.out.println("Ex 2");
+        /*Declarați o variabilă de tip float și atribuiți-i o valoare.
+        Declarați o nouă variabilă de tip int și atribuiți-i valoarea primei variabile folosind casting.
+        Afișați valoare celei de-a doua variabile folosind metoda print()*/
         float nr= 1.55f;
         int h= (int) nr;
-        System.out.println(h);
-        System.out.println("tema optionala");
-        /*
-         Declarati doua variabile de tip float cu valori la alegere.
+        System.out.println("Valoarea celei de a doua variabile este " +h);
+
+        /*Casting = trecerea de la un tip de date la alt tip de date
+        Casting implicit/widening (de la mic la mare):byte -> short -> char -> int -> long -> float -> double
+        Casting explicit/narrowing (de la mare la mic):double -> float -> long -> int -> char -> short -> byte
+        Ex. double y = 5; int x = (int) y;
+         */
+
+
+        System.out.println("tema optionala Tipuri de date - Ex 1 ");
+        /*Declarati doua variabile de tip float cu valori la alegere.
          afisati suma lor.
          Afisati diferenta dintre ele.
          Afisati produsul dintre ele (produsul a doua numere se realizeaza cu ajutorul operatorului
-         “*”).
-        */
+         “*”).*/
         float m= 1.22f;
         float n=1.66f;
-        System.out.println(m+n);
-        System.out.println(m-n);
-        System.out.println(m*n);
+        System.out.println("Suma numerelor este " + (m+n));
+        System.out.println("Diferenta numerelor este " + (m-n));
+        System.out.println("Produsul numerelor este " + (m*n));
 
 
     }
